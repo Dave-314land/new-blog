@@ -1,6 +1,6 @@
-import mongoose from 'mongoose'
+import {model, Schema} from 'mongoose'
 
-const userModel = new mongoose.model(
+const userModel = new model(
 	'User',
 	new Schema(
 		{
